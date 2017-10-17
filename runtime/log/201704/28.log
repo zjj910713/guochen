@@ -1,0 +1,871 @@
+[ 2017-04-28T11:35:20+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.game.com/ [运行时间：0.081847s][吞吐率：12.22req/s] [内存消耗：3,442.05kb] [文件加载：48]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/Users/zhujunjie/www/game/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:39:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.game.com/ [运行时间：0.027261s][吞吐率：36.68req/s] [内存消耗：3,441.92kb] [文件加载：48]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/Users/zhujunjie/www/game/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:40:51+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.game.com/ [运行时间：0.139622s][吞吐率：7.16req/s] [内存消耗：3,885.59kb] [文件加载：51]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/game/public/../apps/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'keyword',
+  2 => 'data',
+  3 => 'count',
+  4 => 'config',
+  5 => 'gamelist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015716s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] select T1.id,T1.user,T1.gid,T1.integral,T1.pintegral,T1.mistake,T1.pmistake,T1.total,T1.allit,T1.meback,T1.nextback,T1.misback,T1.misnextback,T1.exchange,T1.mistexhange,T1.name,T2.buytotal,T2.recovery,T2.addtime from (select u.id,u.user,i.gid,i.integral,i.mistake,i.pmistake,i.recovery,i.pintegral,i.total,i.allit,i.meback,i.nextback,i.misback,i.misnextback,i.exchange,i.mistexhange,g.name from g_user as u  left join g_ingame as i on u.id=i.uid left join g_game as g on g.id=i.gid where g.state=1 and  1= 1 ) as T1  left join (select uid,gid,max(addtime)as addtime,sum(case when state=1  then cgamebi  else 0 end) as buytotal, sum(case when state=2  then cgamebi  else 0 end) as recovery from  g_recharge  group by uid,gid) AS T2 on T1.id = T2.uid and T1.gid = T2.gid order by T1.user asc ,T2.addtime desc [ RunTime:0.029415s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001422s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_ingame` [ RunTime:0.001562s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 1  AND `gid` = 1 LIMIT 1     [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 2  AND `gid` = 1 LIMIT 1     [ RunTime:0.000426s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000909s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_user` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT MAX(user) AS tp_max FROM `g_user` LIMIT 1   [ RunTime:0.000385s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000830s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `state` = 1   [ RunTime:0.000352s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000819s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_config` [ RunTime:0.001665s ]
+[ sql ] [ SQL ] SELECT * FROM `g_config` LIMIT 1   [ RunTime:0.000476s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:40:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getgame.html
+[ log ] www.game.com/index/index/getgame.html [运行时间：0.036263s][吞吐率：27.58req/s] [内存消耗：3,669.24kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getgame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->getGame[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000998s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000501s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:40:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getgame.html
+[ log ] www.game.com/index/index/getgame.html [运行时间：0.027502s][吞吐率：36.36req/s] [内存消耗：3,669.34kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getgame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->getGame[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000880s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000428s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:40:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getgame.html
+[ log ] www.game.com/index/index/getgame.html [运行时间：0.024070s][吞吐率：41.55req/s] [内存消耗：3,669.34kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getgame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->getGame[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000427s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:40:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getgame.html
+[ log ] www.game.com/index/index/getgame.html [运行时间：0.024069s][吞吐率：41.55req/s] [内存消耗：3,669.34kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getgame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->getGame[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000788s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000492s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:41:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getgame.html
+[ log ] www.game.com/index/index/getgame.html [运行时间：0.025287s][吞吐率：39.55req/s] [内存消耗：3,669.34kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getgame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->getGame[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000786s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000406s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:41:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/index.html
+[ log ] www.game.com/index/index/index.html [运行时间：0.041358s][吞吐率：24.18req/s] [内存消耗：3,902.64kb] [文件加载：52]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'type' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/game/public/../apps/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'keyword',
+  2 => 'data',
+  3 => 'count',
+  4 => 'config',
+  5 => 'gamelist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000752s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] select T1.id,T1.user,T1.gid,T1.integral,T1.pintegral,T1.mistake,T1.pmistake,T1.total,T1.allit,T1.meback,T1.nextback,T1.misback,T1.misnextback,T1.exchange,T1.mistexhange,T1.name,T2.buytotal,T2.recovery,T2.addtime from (select u.id,u.user,i.gid,i.integral,i.mistake,i.pmistake,i.recovery,i.pintegral,i.total,i.allit,i.meback,i.nextback,i.misback,i.misnextback,i.exchange,i.mistexhange,g.name from g_user as u  left join g_ingame as i on u.id=i.uid left join g_game as g on g.id=i.gid where g.state=1 and  1= 1 ) as T1  left join (select uid,gid,max(addtime)as addtime,sum(case when state=1  then cgamebi  else 0 end) as buytotal, sum(case when state=2  then cgamebi  else 0 end) as recovery from  g_recharge  group by uid,gid) AS T2 on T1.id = T2.uid and T1.gid = T2.gid order by T1.user asc ,T2.addtime desc [ RunTime:0.001096s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000866s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_ingame` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 1  AND `gid` = 1 LIMIT 1     [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 2  AND `gid` = 1 LIMIT 1     [ RunTime:0.000325s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000831s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_user` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT MAX(user) AS tp_max FROM `g_user` LIMIT 1   [ RunTime:0.000542s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000893s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `state` = 1   [ RunTime:0.000395s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000829s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_config` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `g_config` LIMIT 1   [ RunTime:0.000340s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:41:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.game.com/ [运行时间：0.034550s][吞吐率：28.94req/s] [内存消耗：3,885.64kb] [文件加载：51]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/game/public/../apps/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'keyword',
+  2 => 'data',
+  3 => 'count',
+  4 => 'config',
+  5 => 'gamelist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] select T1.id,T1.user,T1.gid,T1.integral,T1.pintegral,T1.mistake,T1.pmistake,T1.total,T1.allit,T1.meback,T1.nextback,T1.misback,T1.misnextback,T1.exchange,T1.mistexhange,T1.name,T2.buytotal,T2.recovery,T2.addtime from (select u.id,u.user,i.gid,i.integral,i.mistake,i.pmistake,i.recovery,i.pintegral,i.total,i.allit,i.meback,i.nextback,i.misback,i.misnextback,i.exchange,i.mistexhange,g.name from g_user as u  left join g_ingame as i on u.id=i.uid left join g_game as g on g.id=i.gid where g.state=1 and  1= 1 ) as T1  left join (select uid,gid,max(addtime)as addtime,sum(case when state=1  then cgamebi  else 0 end) as buytotal, sum(case when state=2  then cgamebi  else 0 end) as recovery from  g_recharge  group by uid,gid) AS T2 on T1.id = T2.uid and T1.gid = T2.gid order by T1.user asc ,T2.addtime desc [ RunTime:0.001097s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_ingame` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 1  AND `gid` = 1 LIMIT 1     [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 2  AND `gid` = 1 LIMIT 1     [ RunTime:0.000316s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000708s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_user` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT MAX(user) AS tp_max FROM `g_user` LIMIT 1   [ RunTime:0.000332s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000670s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `state` = 1   [ RunTime:0.000343s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_config` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `g_config` LIMIT 1   [ RunTime:0.000258s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:41:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/conlist/gid/1/uid/1.html
+[ log ] www.game.com/index/index/conlist/gid/1/uid/1.html [运行时间：0.040672s][吞吐率：24.59req/s] [内存消耗：3,985.52kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'conlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'uid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->conList[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/game/public/../apps/index/view/index/conlist.html [ array (
+  0 => 'page',
+  1 => 'username',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000822s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_recharge` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_recharge` `e` INNER JOIN `g_game` `g` ON `e`.`gid`=`g`.`id` INNER JOIN `g_user` `u` ON `u`.`id`=`e`.`uid` WHERE  (   1=1  and e.uid=1 and e.gid=1 ) ORDER BY e.id desc LIMIT 1   [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `e`.*,`g`.`name`,`u`.`user` FROM `g_recharge` `e` INNER JOIN `g_game` `g` ON `e`.`gid`=`g`.`id` INNER JOIN `g_user` `u` ON `u`.`id`=`e`.`uid` WHERE  (   1=1  and e.uid=1 and e.gid=1 ) ORDER BY e.id desc LIMIT 0,10   [ RunTime:0.000554s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000935s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_user` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT `user` FROM `g_user` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000363s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:41:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getgame.html
+[ log ] www.game.com/index/index/getgame.html [运行时间：0.043723s][吞吐率：22.87req/s] [内存消耗：3,669.57kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getgame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1; pgv_si=s2089996288',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->getGame[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001656s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.003446s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.002571s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:41:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getgame.html
+[ log ] www.game.com/index/index/getgame.html [运行时间：0.026772s][吞吐率：37.35req/s] [内存消耗：3,669.57kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getgame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1; pgv_si=s2089996288',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->getGame[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000843s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000420s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:41:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getgame.html
+[ log ] www.game.com/index/index/getgame.html [运行时间：0.024771s][吞吐率：40.37req/s] [内存消耗：3,669.57kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getgame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1; pgv_si=s2089996288',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->getGame[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000889s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000405s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:41:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getgame.html
+[ log ] www.game.com/index/index/getgame.html [运行时间：0.027180s][吞吐率：36.79req/s] [内存消耗：3,669.57kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getgame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1; pgv_si=s2089996288',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->getGame[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000961s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000441s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:41:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/recharge.html
+[ log ] www.game.com/index/index/recharge.html [运行时间：0.047387s][吞吐率：21.10req/s] [内存消耗：3,840.45kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'recharge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '45',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1; pgv_si=s2089996288',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '1',
+  'gid' => '1',
+  'money' => '100',
+  'cgamebi' => '1450000',
+  'state' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->recharge[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001058s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_recharge` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] INSERT INTO `g_recharge` (`uid` , `gid` , `money` , `cgamebi` , `state` , `addtime`) VALUES (1 , 1 , '100' , 1450000 , 1 , 1493350912)        [ RunTime:0.001802s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000858s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_config` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `fdxx` FROM `g_config` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000380s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] select pid,meback,nextback,(select gameback from g_game where id=1) as gameback from g_ingame where gid=1 and uid=1 [ RunTime:0.000528s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000690s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] update g_ingame set integral=integral+11600 , allit=allit+11600,total=total+100 where uid=1 and gid=1 [ RunTime:0.000672s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000742s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_ingame` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT `integral`,`allit`,`total` FROM `g_ingame` WHERE  `uid` = 1  AND `gid` = 1 LIMIT 1     [ RunTime:0.000362s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000777s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `g_config` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000402s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000710s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] select i.pid,i.misback,i.misnextback,i.recovery,(select sum(cgamebi) from g_recharge where uid=1 and gid=1 and state = 1) as buytotal,(select sum(cgamebi) from g_recharge where uid=1 and gid=1 and state = 2) as selltotal,(select sum(cgamebi) from g_recharge where uid=1 and gid=1 and state = 4) as cjdui from g_user as u left join g_ingame as i on u.id=i.uid where u.id=1 and i.gid=1 [ RunTime:0.000635s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] update g_ingame set mistake=81870  where uid=1 and gid=1 [ RunTime:0.000326s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:41:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/conlist/gid/1/uid/1.html
+[ log ] www.game.com/index/index/conlist/gid/1/uid/1.html [运行时间：0.029097s][吞吐率：34.37req/s] [内存消耗：3,985.76kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'conlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1; pgv_si=s2089996288',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'uid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->conList[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/game/public/../apps/index/view/index/conlist.html [ array (
+  0 => 'page',
+  1 => 'username',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000817s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_recharge` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_recharge` `e` INNER JOIN `g_game` `g` ON `e`.`gid`=`g`.`id` INNER JOIN `g_user` `u` ON `u`.`id`=`e`.`uid` WHERE  (   1=1  and e.uid=1 and e.gid=1 ) ORDER BY e.id desc LIMIT 1   [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT `e`.*,`g`.`name`,`u`.`user` FROM `g_recharge` `e` INNER JOIN `g_game` `g` ON `e`.`gid`=`g`.`id` INNER JOIN `g_user` `u` ON `u`.`id`=`e`.`uid` WHERE  (   1=1  and e.uid=1 and e.gid=1 ) ORDER BY e.id desc LIMIT 0,10   [ RunTime:0.000496s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_user` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `user` FROM `g_user` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000358s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:42:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/beback.html
+[ log ] www.game.com/index/index/beback.html [运行时间：0.038352s][吞吐率：26.07req/s] [内存消耗：3,765.48kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'beback',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => '*/*',
+  'origin' => 'http://www.game.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.game.com/index/index/conlist/gid/1/uid/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1; pgv_si=s2089996288',
+)
+[ info ] [ PARAM ] array (
+  'id' => '102',
+)
+[ info ] [ RUN ] app\index\controller\Index->beBack[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000954s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_recharge` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `e`.*,`g`.`gameback`,`g`.`unit`,`u`.`pid` FROM `g_recharge` `e` INNER JOIN `g_game` `g` ON `e`.`gid`=`g`.`id` INNER JOIN `g_user` `u` ON `u`.`id`=`e`.`uid` WHERE  (  e.id=102 ) ORDER BY e.id desc LIMIT 1   [ RunTime:0.000454s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000850s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] select u.pid,i.meback,i.nextback,i.recovery,(select gameback from g_game where id=1) as gameback from g_user as u join g_ingame as i on u.id=i.uid where u.id=1 and i.gid=1 [ RunTime:0.000549s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000811s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_config` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `g_config` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000385s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000774s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] update g_ingame set integral=integral-11600,total=total-100 ,allit=allit-11600 where uid=1 and gid=1 [ RunTime:0.000387s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000715s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `g_recharge`  SET `state`=5,`addtime`=1493350922  WHERE  `id` = 102      [ RunTime:0.002028s ]
+
+---------------------------------------------------------------
+[ 2017-04-28T11:42:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/conlist/gid/1/uid/1.html
+[ log ] www.game.com/index/index/conlist/gid/1/uid/1.html [运行时间：0.060350s][吞吐率：16.57req/s] [内存消耗：3,985.54kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'conlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.game.com/index/index/conlist/gid/1/uid/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=td1embf3fg4efc8kf6ei3pvaa1; pgv_si=s2089996288',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'uid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->conList[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/game/public/../apps/index/view/index/conlist.html [ array (
+  0 => 'page',
+  1 => 'username',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001565s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_recharge` [ RunTime:0.001123s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_recharge` `e` INNER JOIN `g_game` `g` ON `e`.`gid`=`g`.`id` INNER JOIN `g_user` `u` ON `u`.`id`=`e`.`uid` WHERE  (   1=1  and e.uid=1 and e.gid=1 ) ORDER BY e.id desc LIMIT 1   [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT `e`.*,`g`.`name`,`u`.`user` FROM `g_recharge` `e` INNER JOIN `g_game` `g` ON `e`.`gid`=`g`.`id` INNER JOIN `g_user` `u` ON `u`.`id`=`e`.`uid` WHERE  (   1=1  and e.uid=1 and e.gid=1 ) ORDER BY e.id desc LIMIT 0,10   [ RunTime:0.000760s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001554s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_user` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT `user` FROM `g_user` WHERE  `id` = 1 LIMIT 1    [ RunTime:0.000487s ]
+
+---------------------------------------------------------------

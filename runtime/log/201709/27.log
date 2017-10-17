@@ -1,0 +1,306 @@
+[ 2017-09-27T22:33:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.game.com/ [运行时间：0.259245s][吞吐率：3.86req/s] [内存消耗：4,043.77kb] [文件加载：51]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/game/public/../apps/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'keyword',
+  2 => 'data',
+  3 => 'count',
+  4 => 'config',
+  5 => 'gamelist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002142s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] select T1.id,T1.user,T1.gid,T1.integral,T1.pintegral,T1.mistake,T1.pmistake,T1.total,T1.allit,T1.meback,T1.nextback,T1.misback,T1.misnextback,T1.exchange,T1.mistexhange,T1.name,T2.buytotal,T2.recovery,T2.addtime from (select u.id,u.user,i.gid,i.integral,i.mistake,i.pmistake,i.recovery,i.pintegral,i.total,i.allit,i.meback,i.nextback,i.misback,i.misnextback,i.exchange,i.mistexhange,g.name from g_user as u  left join g_ingame as i on u.id=i.uid left join g_game as g on g.id=i.gid where g.state=1 and  1= 1 ) as T1  left join (select uid,gid,max(addtime)as addtime,sum(case when state=1  then cgamebi  else 0 end) as buytotal, sum(case when state=2  then cgamebi  else 0 end) as recovery from  g_recharge  group by uid,gid) AS T2 on T1.id = T2.uid and T1.gid = T2.gid order by T1.user asc ,T2.addtime desc limit 30 [ RunTime:0.101145s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001324s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_ingame` [ RunTime:0.001748s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 9  AND `gid` = 1 LIMIT 1     [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 9  AND `gid` = 3 LIMIT 1     [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 104  AND `gid` = 6 LIMIT 1     [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 104  AND `gid` = 2 LIMIT 1     [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 87  AND `gid` = 2 LIMIT 1     [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 160  AND `gid` = 2 LIMIT 1     [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 142  AND `gid` = 2 LIMIT 1     [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 70  AND `gid` = 2 LIMIT 1     [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 77  AND `gid` = 2 LIMIT 1     [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 77  AND `gid` = 5 LIMIT 1     [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 85  AND `gid` = 1 LIMIT 1     [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 38  AND `gid` = 2 LIMIT 1     [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 207  AND `gid` = 2 LIMIT 1     [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 11  AND `gid` = 3 LIMIT 1     [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 11  AND `gid` = 1 LIMIT 1     [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 129  AND `gid` = 1 LIMIT 1     [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 41  AND `gid` = 2 LIMIT 1     [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 22  AND `gid` = 2 LIMIT 1     [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 22  AND `gid` = 3 LIMIT 1     [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 42  AND `gid` = 2 LIMIT 1     [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 32  AND `gid` = 1 LIMIT 1     [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 32  AND `gid` = 2 LIMIT 1     [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 43  AND `gid` = 2 LIMIT 1     [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 31  AND `gid` = 2 LIMIT 1     [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 71  AND `gid` = 2 LIMIT 1     [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 71  AND `gid` = 5 LIMIT 1     [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 59  AND `gid` = 1 LIMIT 1     [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 60  AND `gid` = 1 LIMIT 1     [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 60  AND `gid` = 3 LIMIT 1     [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 249  AND `gid` = 2 LIMIT 1     [ RunTime:0.000326s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_user` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT MAX(user) AS tp_max FROM `g_user` LIMIT 1   [ RunTime:0.000341s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000704s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `state` = 1   [ RunTime:0.000485s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_config` [ RunTime:0.001602s ]
+[ sql ] [ SQL ] SELECT * FROM `g_config` LIMIT 1   [ RunTime:0.000409s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T23:03:03+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.game.com/ [运行时间：0.047394s][吞吐率：21.10req/s] [内存消耗：3,538.79kb] [文件加载：52]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=h73mrij905tcq467me1ufpao77',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001069s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'page 1 limit 30' at line 1[/Users/zhujunjie/www/game/thinkphp/library/think/db/Connection.php:362]
+
+---------------------------------------------------------------
+[ 2017-09-27T23:04:35+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.game.com/ [运行时间：0.030884s][吞吐率：32.38req/s] [内存消耗：3,538.79kb] [文件加载：52]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=h73mrij905tcq467me1ufpao77',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000859s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'page 0 limit 30' at line 1[/Users/zhujunjie/www/game/thinkphp/library/think/db/Connection.php:362]
+
+---------------------------------------------------------------
+[ 2017-09-27T23:04:47+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.game.com/ [运行时间：0.137533s][吞吐率：7.27req/s] [内存消耗：3,994.11kb] [文件加载：51]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=h73mrij905tcq467me1ufpao77',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/game/public/../apps/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'keyword',
+  2 => 'data',
+  3 => 'count',
+  4 => 'config',
+  5 => 'gamelist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000789s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] select T1.id,T1.user,T1.gid,T1.integral,T1.pintegral,T1.mistake,T1.pmistake,T1.total,T1.allit,T1.meback,T1.nextback,T1.misback,T1.misnextback,T1.exchange,T1.mistexhange,T1.name,T2.buytotal,T2.recovery,T2.addtime from (select u.id,u.user,i.gid,i.integral,i.mistake,i.pmistake,i.recovery,i.pintegral,i.total,i.allit,i.meback,i.nextback,i.misback,i.misnextback,i.exchange,i.mistexhange,g.name from g_user as u  left join g_ingame as i on u.id=i.uid left join g_game as g on g.id=i.gid where g.state=1 and  1= 1 ) as T1  left join (select uid,gid,max(addtime)as addtime,sum(case when state=1  then cgamebi  else 0 end) as buytotal, sum(case when state=2  then cgamebi  else 0 end) as recovery from  g_recharge  group by uid,gid) AS T2 on T1.id = T2.uid and T1.gid = T2.gid order by T1.user asc ,T2.addtime desc limit 0,20 [ RunTime:0.080172s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000832s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_ingame` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 9  AND `gid` = 1 LIMIT 1     [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 9  AND `gid` = 3 LIMIT 1     [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 104  AND `gid` = 6 LIMIT 1     [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 104  AND `gid` = 2 LIMIT 1     [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 87  AND `gid` = 2 LIMIT 1     [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 160  AND `gid` = 2 LIMIT 1     [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 142  AND `gid` = 2 LIMIT 1     [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 70  AND `gid` = 2 LIMIT 1     [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 77  AND `gid` = 2 LIMIT 1     [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 77  AND `gid` = 5 LIMIT 1     [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 85  AND `gid` = 1 LIMIT 1     [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 38  AND `gid` = 2 LIMIT 1     [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 207  AND `gid` = 2 LIMIT 1     [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 11  AND `gid` = 3 LIMIT 1     [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 11  AND `gid` = 1 LIMIT 1     [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 129  AND `gid` = 1 LIMIT 1     [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 41  AND `gid` = 2 LIMIT 1     [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 22  AND `gid` = 2 LIMIT 1     [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 22  AND `gid` = 3 LIMIT 1     [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_ingame` WHERE  `pid` = 42  AND `gid` = 2 LIMIT 1     [ RunTime:0.000338s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000710s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_user` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT MAX(user) AS tp_max FROM `g_user` LIMIT 1   [ RunTime:0.000383s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_game` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `g_game` WHERE  `state` = 1   [ RunTime:0.000360s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_config` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `g_config` LIMIT 1   [ RunTime:0.000280s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T23:08:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/conlist/gid/1/uid/9.html
+[ log ] www.game.com/index/index/conlist/gid/1/uid/9.html [运行时间：0.084672s][吞吐率：11.81req/s] [内存消耗：4,001.48kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/game/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'conlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.game.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.game.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2990879744; laravel_session=eyJpdiI6InltZXhJVVQwSmQ2SUYzRnlGakFRVUE9PSIsInZhbHVlIjoiczBCaDhRRVY0V0FZYlhVZkJidFMrM21Ga2E0WjJQbXpsTXRWbVpacjFKWTZ1ejNXd2d4YWNCY1ZMZTRXQld5YXRYeEpcL0xJdEtYV3FTK0FhbVRvTGdBPT0iLCJtYWMiOiIyNGFmYWE0ODNjMGY2MzFkOWQ5N2EwNTAxYjc0YzRiNjhhOTJmMjNjNjUxMmU1ZjgwNmI3OWI2MjBhNzIyOTRhIn0%3D; _ga=GA1.2.1467539281.1490195187; Hm_lvt_741e9d38531a1c46006e455cfaca6af6=1490195187; PHPSESSID=h73mrij905tcq467me1ufpao77',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'uid' => '9',
+)
+[ info ] [ RUN ] app\index\controller\Index->conList[ /Users/zhujunjie/www/game/apps/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/game/public/../apps/index/view/index/conlist.html [ array (
+  0 => 'page',
+  1 => 'username',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001089s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_recharge` [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `g_recharge` `e` INNER JOIN `g_game` `g` ON `e`.`gid`=`g`.`id` INNER JOIN `g_user` `u` ON `u`.`id`=`e`.`uid` WHERE  (   1=1  and e.uid=9 and e.gid=1 ) ORDER BY e.id desc LIMIT 1   [ RunTime:0.019911s ]
+[ sql ] [ SQL ] SELECT `e`.*,`g`.`name`,`u`.`user` FROM `g_recharge` `e` INNER JOIN `g_game` `g` ON `e`.`gid`=`g`.`id` INNER JOIN `g_user` `u` ON `u`.`id`=`e`.`uid` WHERE  (   1=1  and e.uid=9 and e.gid=1 ) ORDER BY e.id desc LIMIT 0,10   [ RunTime:0.022496s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:dbname=game;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `g_user` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT `user` FROM `g_user` WHERE  `id` = 9 LIMIT 1    [ RunTime:0.000385s ]
+
+---------------------------------------------------------------
