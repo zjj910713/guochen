@@ -31,7 +31,7 @@ class Login extends Controller
 				cookie('admin_cookie_id',$arr['admin_id'],3*24*60);
 				session('admin_user',$arr['admin_id']);
 				session('admin_username',$arr['admin_user']);
-				db('sessions')->insert(['session_key'=>'admin_user','expiry'=>$time,'last_ip'=>$ip]);
+				db('sessions')->insert(['session_key'=>'admin_user','expiry'=>$time,'ip'=>$ip]);
 				return json(['code'=>200,'登录成功']);
 
 			}

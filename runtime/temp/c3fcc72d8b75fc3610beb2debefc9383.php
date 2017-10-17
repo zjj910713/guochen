@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/index/index.html";i:1507737169;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/header.html";i:1507736765;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/footer.html";i:1507737462;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/index/index.html";i:1508233560;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/header.html";i:1507736765;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/footer.html";i:1508229501;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -41,7 +41,7 @@
                             </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
                                 <li class="divider"></li>
-                                <li><a href="login.html">安全退出</a>
+                                <li><a href="<?php echo url('login/logout'); ?>">安全退出</a>
                                 </li>
                             </ul>
                         </div>
@@ -50,22 +50,25 @@
                     </li>
                       
                     <li>
-                        <a href="#"><i class="fa fa-table"></i> <span class="nav-label">新闻资讯</span><span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="javascript:void(0);" data-url="/admin/news/index">新闻列表</a></li>
-                        </ul>
+                        <li><a class="J_menuItem" href="javascript:void(0);" data-url="/index/index">首页</a></li>
                     </li>
                     <li>
                         <a class="J_menuItem nav_notice_icon" href="javascript:void(0);">
                             <i class="fa fa-user"></i>
-                            <span class="nav-label">用户管理</span>
+                            <span class="nav-label">会员管理</span>
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a class="J_menuItem" href="javascript:void(0);" data-url="<?php echo url('User/index'); ?>">
+                                <a class="J_menuItem" href="javascript:void(0);" data-url="/member/index">
                                     <i class="fa fa-shopping-cart"></i>
-                                    <span class="nav-label">用户列表</span>
+                                    <span class="nav-label">会员列表</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="J_menuItem" href="javascript:void(0);" data-url="/member/add">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="nav-label">会员添加</span>
                                 </a>
                             </li>
                         </ul>
