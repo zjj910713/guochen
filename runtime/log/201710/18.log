@@ -1,0 +1,2943 @@
+[ 2017-10-18T09:15:19+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] admin.guochen.com/ [运行时间：0.042715s][吞吐率：23.41req/s] [内存消耗：2,581.77kb] [文件加载：47]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:15:19+08:00 ] 127.0.0.1 127.0.0.1 GET /login/index.html
+[ log ] admin.guochen.com/login/index.html [运行时间：0.036471s][吞吐率：27.42req/s] [内存消耗：2,789.95kb] [文件加载：47]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:15:20+08:00 ] 127.0.0.1 127.0.0.1 GET /login/favicon.ico
+[ log ] admin.guochen.com/login/favicon.ico [运行时间：0.030065s][吞吐率：33.26req/s] [内存消耗：2,514.48kb] [文件加载：45]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:15:26+08:00 ] 127.0.0.1 127.0.0.1 POST /login/index.html
+[ log ] admin.guochen.com/login/index.html [运行时间：0.059631s][吞吐率：16.77req/s] [内存消耗：3,510.80kb] [文件加载：51]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.guochen.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.guochen.com/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001933s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.010612s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_admin_users` WHERE  `admin_user` = 'admin' LIMIT 1    [ RunTime:0.001035s ]
+[ sql ] [ SQL ] UPDATE `gc_admin_users`  SET `last_login`=1508289326,`last_ip`='127.0.0.1'  WHERE  (  admin_id=1 )     [ RunTime:0.001678s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001241s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_sessions` [ RunTime:0.001897s ]
+[ sql ] [ SQL ] INSERT INTO `gc_sessions` (`session_key` , `expiry` , `ip`) VALUES ('admin_user' , 1508289326 , '127.0.0.1')     [ RunTime:0.000643s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T09:15:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index
+[ log ] admin.guochen.com/index/index [运行时间：0.020812s][吞吐率：48.05req/s] [内存消耗：2,516.47kb] [文件加载：45]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:15:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index2
+[ log ] admin.guochen.com/admin/index/index2 [运行时间：0.024515s][吞吐率：40.79req/s] [内存消耗：2,074.04kb] [文件加载：38]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:15:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/favicon.ico
+[ log ] admin.guochen.com/index/favicon.ico [运行时间：0.023116s][吞吐率：43.26req/s] [内存消耗：2,506.03kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:53:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index
+[ log ] admin.guochen.com/index/index [运行时间：0.020583s][吞吐率：48.58req/s] [内存消耗：2,745.05kb] [文件加载：47]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:53:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index2
+[ log ] admin.guochen.com/admin/index/index2 [运行时间：0.023837s][吞吐率：41.95req/s] [内存消耗：2,074.04kb] [文件加载：38]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:53:36+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.022672s][吞吐率：44.11req/s] [内存消耗：2,423.23kb] [文件加载：43]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:53:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index
+[ log ] admin.guochen.com/index/index [运行时间：0.015063s][吞吐率：66.39req/s] [内存消耗：2,516.73kb] [文件加载：45]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:53:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index2
+[ log ] admin.guochen.com/admin/index/index2 [运行时间：0.022533s][吞吐率：44.38req/s] [内存消耗：2,074.04kb] [文件加载：38]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T09:54:00+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.034843s][吞吐率：28.70req/s] [内存消耗：2,748.89kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: key[/Users/zhujunjie/www/guochen/runtime/temp/0a24cd9d4eb07b64f5371cb3d7638061.php:43]
+
+---------------------------------------------------------------
+[ 2017-10-18T09:54:23+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.022233s][吞吐率：44.98req/s] [内存消耗：2,749.02kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: list[/Users/zhujunjie/www/guochen/runtime/temp/0a24cd9d4eb07b64f5371cb3d7638061.php:63]
+
+---------------------------------------------------------------
+[ 2017-10-18T09:55:53+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.016996s][吞吐率：58.84req/s] [内存消耗：2,524.48kb] [文件加载：48]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: page[/Users/zhujunjie/www/guochen/runtime/temp/0a24cd9d4eb07b64f5371cb3d7638061.php:78]
+
+---------------------------------------------------------------
+[ 2017-10-18T09:56:23+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.017266s][吞吐率：57.92req/s] [内存消耗：2,428.89kb] [文件加载：44]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T10:18:44+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.027949s][吞吐率：35.78req/s] [内存消耗：3,710.84kb] [文件加载：58]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000976s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000346s ]
+[ error ] [8]未定义变量: page[/Users/zhujunjie/www/guochen/apps/admin/controller/Member.php:17]
+
+---------------------------------------------------------------
+[ 2017-10-18T10:19:30+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.028618s][吞吐率：34.94req/s] [内存消耗：3,940.50kb] [文件加载：61]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1; admin_cookie_id=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000921s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000408s ]
+[ error ] [8]未定义数组索引: id[/Users/zhujunjie/www/guochen/runtime/temp/0a24cd9d4eb07b64f5371cb3d7638061.php:78]
+
+---------------------------------------------------------------
+[ 2017-10-18T10:37:58+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.027131s][吞吐率：36.86req/s] [内存消耗：3,612.34kb] [文件加载：57]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000862s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000364s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'jop_number' in 'field list'[/Users/zhujunjie/www/guochen/thinkphp/library/think/db/Connection.php:362]
+
+---------------------------------------------------------------
+[ 2017-10-18T10:38:41+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.025538s][吞吐率：39.16req/s] [内存消耗：3,843.35kb] [文件加载：57]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000971s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000441s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T11:15:48+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.031383s][吞吐率：31.86req/s] [内存消耗：3,843.61kb] [文件加载：57]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001042s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000869s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000404s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T11:15:49+08:00 ] 127.0.0.1 127.0.0.1 GET /Member/add
+[ log ] admin.guochen.com/Member/add [运行时间：0.021132s][吞吐率：47.32req/s] [内存消耗：2,652.02kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T13:52:46+08:00 ] 127.0.0.1 127.0.0.1 GET /Member/add
+[ log ] admin.guochen.com/Member/add [运行时间：0.033221s][吞吐率：30.10req/s] [内存消耗：2,656.16kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T14:04:02+08:00 ] 127.0.0.1 127.0.0.1 GET /Member/add
+[ log ] admin.guochen.com/Member/add [运行时间：0.015947s][吞吐率：62.71req/s] [内存消耗：2,658.33kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T14:07:59+08:00 ] 127.0.0.1 127.0.0.1 GET /Member/add
+[ log ] admin.guochen.com/Member/add [运行时间：0.017645s][吞吐率：56.67req/s] [内存消耗：2,659.05kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T14:22:38+08:00 ] 127.0.0.1 127.0.0.1 GET /Member/add
+[ log ] admin.guochen.com/Member/add [运行时间：0.022919s][吞吐率：43.63req/s] [内存消耗：2,660.68kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/Member/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T14:26:56+08:00 ] 127.0.0.1 127.0.0.1 GET /Member/add
+[ log ] admin.guochen.com/Member/add [运行时间：0.028211s][吞吐率：35.45req/s] [内存消耗：2,660.68kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/Member/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T14:30:00+08:00 ] 127.0.0.1 127.0.0.1 POST /member/add
+[ log ] admin.guochen.com/member/add [运行时间：0.038624s][吞吐率：25.89req/s] [内存消耗：2,477.03kb] [文件加载：44]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'content-length' => '177',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.guochen.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.guochen.com/Member/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+)
+[ info ] [ PARAM ] array (
+  'job_number' => '0002',
+  'admin_user' => '尊者',
+  'realname' => '朱坚强',
+  'password' => '123456',
+  'mobile' => '15989242424',
+  'qq' => '35255',
+  'weixin' => '12363',
+  'birthday' => '1995-01-10',
+  'sex' => '2',
+  'auth_code' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T14:53:35+08:00 ] 127.0.0.1 127.0.0.1 POST /member/add
+[ log ] admin.guochen.com/member/add [运行时间：0.035435s][吞吐率：28.22req/s] [内存消耗：3,217.79kb] [文件加载：50]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'content-length' => '177',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.guochen.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.guochen.com/Member/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+)
+[ info ] [ PARAM ] array (
+  'job_number' => '0002',
+  'admin_user' => '尊者',
+  'realname' => '朱坚强',
+  'password' => '123456',
+  'mobile' => '15989242424',
+  'qq' => '35255',
+  'weixin' => '12363',
+  'birthday' => '1995-01-10',
+  'sex' => '2',
+  'auth_code' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->inster[/Users/zhujunjie/www/guochen/thinkphp/library/think/db/Query.php:91]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:01:05+08:00 ] 127.0.0.1 127.0.0.1 POST /member/add
+[ log ] admin.guochen.com/member/add [运行时间：0.040957s][吞吐率：24.42req/s] [内存消耗：3,447.23kb] [文件加载：51]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'content-length' => '177',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.guochen.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.guochen.com/Member/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+)
+[ info ] [ PARAM ] array (
+  'job_number' => '0002',
+  'admin_user' => '尊者',
+  'realname' => '朱坚强',
+  'password' => '123456',
+  'mobile' => '15989242424',
+  'qq' => '35255',
+  'weixin' => '12363',
+  'birthday' => '1995-01-10',
+  'sex' => '2',
+  'auth_code' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001438s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] INSERT INTO `gc_admin_users` (`job_number` , `admin_user` , `realname` , `password` , `mobile` , `qq` , `weixin` , `birthday` , `sex` , `auth_code` , `reg_time` , `last_ip`) VALUES ('0002' , '尊者' , '朱坚强' , '25c82a923226ff30f7cb061bfb427b3e' , '15989242424' , '35255' , '12363' , '1995-01-10' , 2 , 1 , 1508310065 , '127.0.0.1')              [ RunTime:0.001112s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:07:50+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.026950s][吞吐率：37.11req/s] [内存消耗：3,625.09kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000877s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000467s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:16:00+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.039784s][吞吐率：25.14req/s] [内存消耗：3,950.22kb] [文件加载：61]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001008s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000507s ]
+[ error ] [8]未定义变量: key[/Users/zhujunjie/www/guochen/runtime/temp/0a24cd9d4eb07b64f5371cb3d7638061.php:43]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.023183s][吞吐率：43.13req/s] [内存消耗：3,625.84kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000912s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000436s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:32:43+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.048020s][吞吐率：20.82req/s] [内存消耗：3,626.84kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000883s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000417s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:32:51+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?key=15989
+[ log ] admin.guochen.com/member/index?key=15989 [运行时间：0.030845s][吞吐率：32.42req/s] [内存消耗：3,624.18kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '15989',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001023s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 and realname like '%15989%' or job_number like '%15989%' or mobile like '%15989%' ) LIMIT 1   [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 and realname like '%15989%' or job_number like '%15989%' or mobile like '%15989%' ) LIMIT 0,15   [ RunTime:0.000471s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?key=%E6%9C%B1
+[ log ] admin.guochen.com/member/index?key=%E6%9C%B1 [运行时间：0.029284s][吞吐率：34.15req/s] [内存消耗：3,626.59kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?key=15989',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '朱',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001364s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 and realname like '%朱%' or job_number like '%朱%' or mobile like '%朱%' ) LIMIT 1   [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 and realname like '%朱%' or job_number like '%朱%' or mobile like '%朱%' ) LIMIT 0,15   [ RunTime:0.000456s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:33:06+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?key=%E6%9D%B0
+[ log ] admin.guochen.com/member/index?key=%E6%9D%B0 [运行时间：0.030567s][吞吐率：32.72req/s] [内存消耗：3,623.89kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?key=%E6%9C%B1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '杰',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001828s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 and realname like '%杰%' or job_number like '%杰%' or mobile like '%杰%' ) LIMIT 1   [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 and realname like '%杰%' or job_number like '%杰%' or mobile like '%杰%' ) LIMIT 0,15   [ RunTime:0.000538s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:33:15+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?key=000
+[ log ] admin.guochen.com/member/index?key=000 [运行时间：0.032126s][吞吐率：31.13req/s] [内存消耗：3,626.75kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?key=%E6%9D%B0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '000',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001720s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.001695s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 and realname like '%000%' or job_number like '%000%' or mobile like '%000%' ) LIMIT 1   [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 and realname like '%000%' or job_number like '%000%' or mobile like '%000%' ) LIMIT 0,15   [ RunTime:0.000607s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:33:18+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?key=1
+[ log ] admin.guochen.com/member/index?key=1 [运行时间：0.028722s][吞吐率：34.82req/s] [内存消耗：3,626.58kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?key=000',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000910s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 and realname like '%1%' or job_number like '%1%' or mobile like '%1%' ) LIMIT 1   [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 and realname like '%1%' or job_number like '%1%' or mobile like '%1%' ) LIMIT 0,15   [ RunTime:0.000802s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:33:19+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?key=1
+[ log ] admin.guochen.com/member/index?key=1 [运行时间：0.026244s][吞吐率：38.10req/s] [内存消耗：3,626.58kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?key=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001494s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 and realname like '%1%' or job_number like '%1%' or mobile like '%1%' ) LIMIT 1   [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 and realname like '%1%' or job_number like '%1%' or mobile like '%1%' ) LIMIT 0,15   [ RunTime:0.000415s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:33:29+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?key=15
+[ log ] admin.guochen.com/member/index?key=15 [运行时间：0.030275s][吞吐率：33.03req/s] [内存消耗：3,623.84kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?key=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000849s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 and realname like '%15%' or job_number like '%15%' or mobile like '%15%' ) LIMIT 1   [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 and realname like '%15%' or job_number like '%15%' or mobile like '%15%' ) LIMIT 0,15   [ RunTime:0.000912s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:33:44+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?key=
+[ log ] admin.guochen.com/member/index?key= [运行时间：0.029452s][吞吐率：33.95req/s] [内存消耗：3,626.27kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?key=15',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000933s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000700s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:33:47+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?key=1
+[ log ] admin.guochen.com/member/index?key=1 [运行时间：0.030586s][吞吐率：32.69req/s] [内存消耗：3,626.58kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?key=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000931s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 and realname like '%1%' or job_number like '%1%' or mobile like '%1%' ) LIMIT 1   [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 and realname like '%1%' or job_number like '%1%' or mobile like '%1%' ) LIMIT 0,15   [ RunTime:0.000417s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T15:37:43+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?key=
+[ log ] admin.guochen.com/member/index?key= [运行时间：0.028067s][吞吐率：35.63req/s] [内存消耗：3,625.59kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?key=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001063s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` LIMIT 1   [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` LIMIT 0,15   [ RunTime:0.000425s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:03:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index
+[ log ] admin.guochen.com/index/index [运行时间：0.043838s][吞吐率：22.81req/s] [内存消耗：2,747.59kb] [文件加载：47]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T17:03:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index2
+[ log ] admin.guochen.com/admin/index/index2 [运行时间：0.037020s][吞吐率：27.01req/s] [内存消耗：2,073.95kb] [文件加载：38]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T17:03:33+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.067136s][吞吐率：14.90req/s] [内存消耗：3,954.37kb] [文件加载：61]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001078s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_admin_users` [ RunTime:0.002297s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT `admin_id`,`auth_code`,`realname`,`admin_user`,`mobile`,`weixin`,`qq`,`job_number`,`sex`,`birthday`,`reg_time` FROM `gc_admin_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000496s ]
+[ error ] [8]未定义数组索引: user_id[/Users/zhujunjie/www/guochen/runtime/temp/0a24cd9d4eb07b64f5371cb3d7638061.php:69]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:04:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index
+[ log ] admin.guochen.com/index/index [运行时间：0.015142s][吞吐率：66.04req/s] [内存消耗：2,516.47kb] [文件加载：45]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T17:04:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index2
+[ log ] admin.guochen.com/admin/index/index2 [运行时间：0.018021s][吞吐率：55.49req/s] [内存消耗：2,073.97kb] [文件加载：38]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T17:04:41+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.044884s][吞吐率：22.28req/s] [内存消耗：3,622.01kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004213s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_users` [ RunTime:0.002274s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT `user_id`,`parent_id`,`reg_time`,`user_name`,`mobile`,`alias`,`sex`,`is_validated`,`head` FROM `gc_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000764s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:04:47+08:00 ] 127.0.0.1 127.0.0.1 GET /staff/add
+[ log ] admin.guochen.com/staff/add [运行时间：0.023248s][吞吐率：43.01req/s] [内存消耗：2,517.86kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Staff->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Staff.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/Users/zhujunjie/www/guochen/public/../apps/admin/view/staff/add.html[/Users/zhujunjie/www/guochen/thinkphp/library/think/view/driver/Think.php:78]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:05:54+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.026108s][吞吐率：38.30req/s] [内存消耗：3,849.12kb] [文件加载：57]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000989s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_users` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT `user_id`,`parent_id`,`reg_time`,`user_name`,`mobile`,`alias`,`sex`,`is_validated`,`head` FROM `gc_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000413s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:05:55+08:00 ] 127.0.0.1 127.0.0.1 GET /member/add
+[ log ] admin.guochen.com/member/add [运行时间：0.020382s][吞吐率：49.06req/s] [内存消耗：2,668.73kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/index?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T17:06:04+08:00 ] 127.0.0.1 127.0.0.1 GET /member/add?v=4.0
+[ log ] admin.guochen.com/member/add?v=4.0 [运行时间：0.051023s][吞吐率：19.60req/s] [内存消耗：2,438.05kb] [文件加载：44]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T17:06:05+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.025967s][吞吐率：38.51req/s] [内存消耗：3,622.01kb] [文件加载：55]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001045s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_users` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT `user_id`,`parent_id`,`reg_time`,`user_name`,`mobile`,`alias`,`sex`,`is_validated`,`head` FROM `gc_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000516s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:06:07+08:00 ] 127.0.0.1 127.0.0.1 GET /member/add?v=4.0
+[ log ] admin.guochen.com/member/add?v=4.0 [运行时间：0.017433s][吞吐率：57.36req/s] [内存消耗：2,438.21kb] [文件加载：44]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T17:18:36+08:00 ] 127.0.0.1 127.0.0.1 GET /member/add?v=4.0
+[ log ] admin.guochen.com/member/add?v=4.0 [运行时间：0.025331s][吞吐率：39.48req/s] [内存消耗：2,667.98kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/add?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T17:19:22+08:00 ] 127.0.0.1 127.0.0.1 POST /member/add
+[ log ] admin.guochen.com/member/add [运行时间：0.032153s][吞吐率：31.10req/s] [内存消耗：3,510.27kb] [文件加载：53]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'content-length' => '133',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.guochen.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.guochen.com/member/add?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => '朱俊杰',
+  'alias' => '尊者',
+  'sex' => '1',
+  'password' => '123456',
+  'mobile' => '15920167220',
+  'sclinic_list' => '0',
+  'is_validated' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001099s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_users` [ RunTime:0.001001s ]
+[ error ] [0]数据表字段不存在:[sclinic_list][/Users/zhujunjie/www/guochen/thinkphp/library/think/db/Builder.php:95]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:19:30+08:00 ] 127.0.0.1 127.0.0.1 POST /member/add
+[ log ] admin.guochen.com/member/add [运行时间：0.035877s][吞吐率：27.87req/s] [内存消耗：3,510.44kb] [文件加载：53]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'content-length' => '133',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.guochen.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.guochen.com/member/add?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => '朱俊杰',
+  'alias' => '尊者',
+  'sex' => '1',
+  'password' => '123456',
+  'mobile' => '15920167220',
+  'sclinic_list' => '0',
+  'is_validated' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000973s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_users` [ RunTime:0.001070s ]
+[ error ] [0]数据表字段不存在:[sclinic_list][/Users/zhujunjie/www/guochen/thinkphp/library/think/db/Builder.php:95]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:21:59+08:00 ] 127.0.0.1 127.0.0.1 GET /member/add?v=4.0
+[ log ] admin.guochen.com/member/add?v=4.0 [运行时间：0.019702s][吞吐率：50.76req/s] [内存消耗：2,667.16kb] [文件加载：46]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/add?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T17:22:22+08:00 ] 127.0.0.1 127.0.0.1 POST /member/add
+[ log ] admin.guochen.com/member/add [运行时间：0.050970s][吞吐率：19.62req/s] [内存消耗：3,447.39kb] [文件加载：51]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'content-length' => '130',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.guochen.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.guochen.com/member/add?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => '朱俊杰',
+  'alias' => '尊者',
+  'sex' => '1',
+  'password' => '123456',
+  'mobile' => '15920167220',
+  'parent_id' => '0',
+  'is_validated' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->add[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002075s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_users` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] INSERT INTO `gc_users` (`user_name` , `alias` , `sex` , `password` , `mobile` , `parent_id` , `is_validated` , `reg_time`) VALUES ('朱俊杰' , '尊者' , 1 , '25c82a923226ff30f7cb061bfb427b3e' , '15920167220' , 0 , 2 , 1508318542)          [ RunTime:0.002669s ]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:22:22+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index
+[ log ] admin.guochen.com/member/index [运行时间：0.046844s][吞吐率：21.35req/s] [内存消耗：3,720.80kb] [文件加载：59]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/member/add?v=4.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001087s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_users` [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT `user_id`,`parent_id`,`reg_time`,`user_name`,`mobile`,`alias`,`sex`,`is_validated`,`head` FROM `gc_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000500s ]
+[ error ] [8]未定义数组索引: admin_id[/Users/zhujunjie/www/guochen/runtime/temp/0a24cd9d4eb07b64f5371cb3d7638061.php:78]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:22:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index
+[ log ] admin.guochen.com/index/index [运行时间：0.017574s][吞吐率：56.90req/s] [内存消耗：2,516.44kb] [文件加载：45]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-18T17:22:47+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.062562s][吞吐率：15.98req/s] [内存消耗：3,721.16kb] [文件加载：59]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003044s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_users` [ RunTime:0.002110s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT `user_id`,`parent_id`,`reg_time`,`user_name`,`mobile`,`alias`,`sex`,`is_validated`,`head` FROM `gc_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.001436s ]
+[ error ] [8]未定义数组索引: admin_id[/Users/zhujunjie/www/guochen/runtime/temp/0a24cd9d4eb07b64f5371cb3d7638061.php:78]
+
+---------------------------------------------------------------
+[ 2017-10-18T17:23:24+08:00 ] 127.0.0.1 127.0.0.1 GET /member/index?v=4.0
+[ log ] admin.guochen.com/member/index?v=4.0 [运行时间：0.027011s][吞吐率：37.02req/s] [内存消耗：3,851.96kb] [文件加载：57]
+[ info ] [ LANG ] /Users/zhujunjie/www/guochen/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.guochen.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://admin.guochen.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=2859075584; PHPSESSID=2fle3t6u56jiu2c7fqr6qf34u1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ /Users/zhujunjie/www/guochen/apps/admin/controller/Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhujunjie/www/guochen/public/../apps/admin/view/member/index.html [ array (
+  0 => 'key',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000867s ] mysql:dbname=guochen;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_users` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_users` WHERE  (  1=1 ) LIMIT 1   [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT `user_id`,`parent_id`,`reg_time`,`user_name`,`mobile`,`alias`,`sex`,`is_validated`,`head` FROM `gc_users` WHERE  (  1=1 ) LIMIT 0,15   [ RunTime:0.000419s ]
+
+---------------------------------------------------------------

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/index/index.html";i:1508233560;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/header.html";i:1507736765;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/footer.html";i:1508229501;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/index/index.html";i:1508313914;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/header.html";i:1507736765;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/footer.html";i:1508229501;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -51,6 +51,27 @@
                       
                     <li>
                         <li><a class="J_menuItem" href="javascript:void(0);" data-url="/index/index">首页</a></li>
+                    </li>
+                    <li>
+                        <a class="J_menuItem nav_notice_icon" href="javascript:void(0);">
+                            <i class="fa fa-user"></i>
+                            <span class="nav-label">员工管理</span>
+                            <span class="fa arrow"></span>
+                        </a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a class="J_menuItem" href="javascript:void(0);" data-url="/staff/index">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="nav-label">会员列表</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="J_menuItem" href="javascript:void(0);" data-url="/staff/add">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="nav-label">会员添加</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a class="J_menuItem nav_notice_icon" href="javascript:void(0);">

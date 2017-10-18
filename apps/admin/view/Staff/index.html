@@ -1,0 +1,70 @@
+{include file="public/header" /}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>员工列表</h5>
+            </div>
+            <div class="ibox-content">
+                <form method="get" action="">
+                    <div class="row">
+                        <div class="col-sm-5 m-b-xs">
+                            <a href="/staff/add" class="btn btn-primary btn-sm">新增</a>
+                            <a href="javascript:void(0);" class="btn btn-warning btn-sm reload">刷新</a>
+                        </div>
+                        <div class="col-sm-4 m-b-xs">
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="input-group">
+                                <input type="text" name="key" value="{$key}" placeholder="搜索用户(按会员ID、手机号、姓名)" class="input-sm form-control">
+                                <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-sm btn-primary"> 搜索</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>工号</th>
+                            <th>姓名</th>
+                            <th>手机号</th>
+                            <th>QQ</th>
+                            <th>微信</th>
+                            <th>出生日期</th>
+                            <th>身份</th>
+                            <th>所属诊所</th>
+                            <th>添加时间</th>
+                            <th width="100px">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {volist name="list" id="vo"}
+                        <tr>
+                            <td>{$vo.job_number}</td>
+                            <td>{$vo.realname}</td>
+                            <td>{$vo.mobile}</td>
+                            <td>{$vo.qq}</td>
+                            <td>{$vo.weixin}</td>
+                            <td>{$vo.birthday}</td>
+                            <td>{$vo.auth_code}</td>
+                            <td>{$vo.sclinic_list}</td>
+                            <td>{$vo.reg_time|date="Y-m-d H:i",###}</td>
+                            <td>
+                                <a href="/admin/banner/banneredit?id={$vo.admin_id}"><i class="btn btn-success btn-xs">编辑</i> </a>
+                               <!--  <a class="alert-do" data-url="/admin/banner/bannerdel?id={$vo.admin_id}" data-title="删除"><i class="btn btn-danger btn-xs">删除</i></a> -->
+                            </td>
+                        </tr>
+                        {/volist}
+                        </tbody>
+                    </table>
+                </div>
+                {$page}
+            </div>
+        </div>
+    </div>
+</div>
+{include file="public/footer" /}
