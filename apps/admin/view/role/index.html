@@ -1,0 +1,53 @@
+{include file="public/header" /}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>角色列表</h5>
+            </div>
+            <div class="ibox-content">
+                <form method="get" action="">
+                    <div class="row">
+                        <div class="col-sm-5 m-b-xs">
+                            <a href="/role/add" class="btn btn-primary btn-sm">新增角色</a>
+                            <a href="javascript:void(0);" class="btn btn-warning btn-sm reload">刷新</a>
+                        </div>
+                        <div class="col-sm-4 m-b-xs">
+                        </div>
+                        <div class="col-sm-3">
+                            
+                        </div>
+                    </div>
+                </form>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>角色名称</th>
+                            <th>后台权限</th>
+                            <th>销售系统权限</th>
+                            <th>收银台系统权限</th>
+                            <th width="100px">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {volist name="list" id="vo"}
+                        <tr>
+                            <td>{$vo.auth_name}</td>
+                            <td>{volist name="vo.admin_code" id="v"}{$v.remark}&nbsp;&nbsp;{/volist}</td>
+                            <td>{eq name="$vo.sell_code" value="1"}有{else/}无{/eq}</td>
+                            <td>{eq name="$vo.action_code" value="1"}有{else/}无{/eq}</td>
+                            <td>
+                                <a href="/role/edit?auth_code={$vo.auth_code}"><i class="btn btn-success btn-xs">编辑</i> </a>
+                            </td>
+                        </tr>
+                        {/volist}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{include file="public/footer" /}

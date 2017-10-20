@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:70:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/member/add.html";i:1508318645;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/header.html";i:1507736765;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/footer.html";i:1508229501;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/staff/add.html";i:1508314854;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/header.html";i:1507736765;s:73:"/Users/zhujunjie/www/guochen/public/../apps/admin/view/public/footer.html";i:1508229501;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -40,18 +40,55 @@
                     <div class="col-sm-3 m-b-xs">
                     </div>
                 </div>
-                <form class="form-horizontal m-t form-post-submit add-submit-form" action="/member/add" method="post">
+                <form class="form-horizontal m-t form-post-submit add-submit-form" action="/staff/add" method="post">
                     <div class="form-group">
-                        <label class="col-sm-3 control-label">姓名：</label>
+                        <label class="col-sm-3 control-label">工号：</label>
                         <div class="col-sm-4">
-                            <input name="user_name" type="text" value="" class="form-control" required autofocus="autofocus">
+                            <input name="job_number" type="text" value="" class="form-control" required autofocus="autofocus">
                         </div>
                     </div>
                     
                     <div class="form-group">
                         <label class="col-sm-3 control-label">昵称：</label>
                         <div class="col-sm-4">
-                            <input name="alias" type="text" value="" class="form-control" required autofocus="autofocus">
+                            <input name="admin_user" type="text" value="" class="form-control" required autofocus="autofocus">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">真实姓名：</label>
+                        <div class="col-sm-4">
+                            <input name="realname" type="text" value="" class="form-control" required autofocus="autofocus">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">密码：</label>
+                        <div class="col-sm-4">
+                            <input name="password" type="password" value="" class="form-control" required autofocus="autofocus">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">手机号码：</label>
+                        <div class="col-sm-4">
+                            <input name="mobile" type="text" value="" class="form-control" required autofocus="autofocus">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">QQ:</label>
+                        <div class="col-sm-4">
+                            <input name="qq" type="text" value="" class="form-control" required autofocus="autofocus">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">微信:</label>
+                        <div class="col-sm-4">
+                            <input name="weixin" type="text" value="" class="form-control" required autofocus="autofocus">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">生日:</label>
+                        <div class="col-sm-4">
+                            <input name="birthday" type="date" value="" class="form-control" required autofocus="autofocus">
                         </div>
                     </div>
                     <div class="form-group">
@@ -74,50 +111,28 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-3 control-label">密码：</label>
-                        <div class="col-sm-4">
-                            <input name="password" type="password" value="" class="form-control" required autofocus="autofocus">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">手机号码：</label>
-                        <div class="col-sm-4">
-                            <input name="mobile" type="text" value="" class="form-control" required autofocus="autofocus">
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">推荐人：</label>
+                        <label class="col-sm-3 control-label">所属诊所：</label>
                         <div class="col-sm-6">
-                        <select name="parent_id" class="form-control">
-                            <option value="0" selected>推荐人</option>
-                            <option value="1">推荐人1</option>
-                            <option value="2">推荐人2</option>
+                        <select name="sclinic_list" class="form-control">
+                            <option value="1" selected>诊所1</option>
+                            <option value="2">诊所2</option>
+                            <option value="3">诊所3</option>
                         </select>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-3 control-label">状态：</label>
-                        <div class="col-sm-2">
-                            <div class="input-group">
-                                <div class="input-group-addon">
-                                    <input type="radio" name="is_validated" id="forstate0" value="1" checked>
-                                </div>
-                                <label class="form-control" for="forstate0">正常</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-2">
-                            <div class="input-group">
-                                <div class="input-group-addon">
-                                    <input type="radio" name="sex" id="forstate1" value="2">
-                                </div>
-                                <label class="form-control" for="forstate1">禁用</label>
-                            </div>
+                        <label class="col-sm-3 control-label">员工类型：</label>
+                        <div class="col-sm-6">
+                        <select name="auth_code" class="form-control">
+                            <option value="0" selected>超级管理员</option>
+                            <option value="1">后台管理员</option>
+                            <option value="2">销售</option>
+                        </select>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-4 col-sm-offset-3">
-                            <button class="btn btn-primary add-submit-buttom" type="submit">添加会员</button>
+                            <button class="btn btn-primary add-submit-buttom" type="submit">添加员工</button>
                         </div>
                     </div>
                 </form>
@@ -150,7 +165,7 @@
             var f = $(".add-submit-form"), url = f.attr('action'), d = f.serialize();
             $.post(url, d, function(r){
                 if(r.code == 200){
-                    top.window.location.href='/member/index';
+                    top.window.location.href='/staff/index';
                 }else{
                     layer.alert(r.msg);
                 }

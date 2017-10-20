@@ -13,7 +13,7 @@ class Staff extends Common
 		if(!empty($key)){
 			$where .= " and realname like '%".$key."%' or job_number like '%".$key."%' or mobile like '%".$key."%'";
 		}
-		$list = db('admin_users')->where($where)->field('admin_id,auth_code,realname,admin_user,mobile,weixin,qq,job_number,sex,birthday,reg_time')->paginate();
+		$list = db('admin_users')->where($where)->field('admin_id,auth_code,realname,admin_user,mobile,weixin,qq,job_number,sclinic_list,sex,birthday,reg_time')->paginate();
 		
 		$page = $list->render();
 		$this->assign('key',$key);
